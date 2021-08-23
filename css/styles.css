@@ -1,0 +1,96 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: x-large;
+    padding-top: 2rem;
+}
+
+.logo {
+    margin-left: 2rem;
+}
+.top-nav{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+    color: #B45F06;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    padding-left: 2rem;
+    padding-bottom: 3rem;;
+    height: 18rem;
+    background-color:#FFD495;
+    font-size: 1.3rem;
+    border: 2px;
+}
+
+p.greet {
+    font-weight: 700;
+    color: #B45F06;
+}
+
+.type-about {
+    color: #B06E0A;
+}
+
+.myInfo > span{
+    display: inline-block;
+    height: 1.5rem;
+}
+.type-about {
+    display: inline-block;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #000; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    width: 7.5rem;
+    animation: 
+      typing 1s steps(10, end),
+      blink-caret .5s step-end infinite;
+    color: #B06E0A;
+    margin-bottom: -6px;}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 7.5rem }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color:#000 }
+  }
+
+  @media (max-width: 600px) {
+    body {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+    .logo {
+        margin-left: 0.5rem;
+    }
+    .logo > img {
+        height: 7rem;
+    }
+    .top-nav {
+        width: 35%;
+        margin-right: 0.5rem;
+        font-size: 1.3rem;
+    }
+  }
+
+
