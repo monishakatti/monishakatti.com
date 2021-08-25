@@ -1,0 +1,65 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 1.3rem;
+    padding-top: 2rem;
+    height: 8rem;
+}
+
+.logo {
+    margin-left: 2rem;
+}
+.top-nav{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 12%;
+    color: #B45F06;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.top-nav li a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.top-nav li {
+    transition: all 200ms ease-in;
+}
+.top-nav li:hover{
+    transform: scale(1.2);
+    font-weight: 500;
+}
+
+.top-nav li.active {
+   text-decoration: underline;
+}
+
+.aboutme {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    height: 600px;
+    width: 1000px;
+}
+
+.higreet{
+    font-size: xx-large;
+}
+.aboutme > span{
+    padding-left: 4rem;
+    line-height: 1.9rem;
+    font-weight: 600;
+    color: #B45F06;
+}

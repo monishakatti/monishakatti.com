@@ -10,6 +10,7 @@ header {
     font-weight: 400;
     font-size: 1.3rem;
     padding-top: 2rem;
+    height: 8rem;
 }
 
 .logo {
@@ -30,6 +31,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content:flex-end;
+    margin-top: 2.5rem;
     padding-left: 2rem;
     padding-bottom: 3rem;;
     height: 18rem;
@@ -51,6 +53,9 @@ p.greet {
     display: inline-block;
     height: 1.5rem;
 }
+
+
+
 .type-about {
     display: inline-block;
     overflow: hidden; /* Ensures the content is not revealed until the animation */
