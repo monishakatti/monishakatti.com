@@ -1,7 +1,6 @@
 body {
     font-family: 'Nunito', sans-serif;
-    padding-right: 4rem;
-    padding-left: 4rem;
+    padding: 0 4rem 4rem 4rem;
 }
 
 header {
@@ -35,7 +34,7 @@ header {
     padding-left: 2rem;
     padding-bottom: 3rem;;
     height: 18rem;
-    background-color:#FFD495;
+    background-color:#fcf2e1;
     font-size: 1.3rem;
     border: 2px;
 }
