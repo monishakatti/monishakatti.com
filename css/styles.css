@@ -1,14 +1,15 @@
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Inter', sans-serif;
     padding: 0 4rem 4rem 4rem;
+    overflow:scroll;
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.3rem;
-    padding-top: 2rem;
+    padding-top: 4rem;
     height: 8rem;
 }
 
@@ -21,7 +22,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 12%;
-    color: #B45F06;
+    color: #EC6C04;
     align-items: center;
     margin-right: 2rem;
 }
@@ -29,23 +30,41 @@ header {
 .intro {
     display: flex;
     flex-direction: column;
-    justify-content:flex-end;
-    margin-top: 2.5rem;
+    justify-content:flex-start;
+    margin-top: 4rem;
     padding-left: 2rem;
-    padding-bottom: 3rem;;
-    height: 18rem;
-    background-color:#fcf2e1;
+    padding-bottom: -1rem;;
+    height: 15rem;
+    background-color:#EDEDED;
     font-size: 1.3rem;
     border: 2px;
+    border-radius: 1rem;
+    padding-top: 2rem;
+    
+}
+
+.pot-image {
+    position: absolute;
+    top: 20rem;
+    right: 4rem;
+    width: 10rem;
+    height: 13rem;
+}
+
+.girl-image {
+    position: absolute;
+    top: 9rem;
+    right: 12rem;
+    height: 25rem;
 }
 
 p.greet {
     font-weight: 700;
-    color: #B45F06;
+    color: #EC6C04;
 }
 
 .type-about {
-    color: #B06E0A;
+    color: #EC6C04;
 }
 
 .myInfo > span{
@@ -64,7 +83,7 @@ p.greet {
     animation: 
       typing 1s steps(10, end),
       blink-caret .5s step-end infinite;
-    color: #B06E0A;
+    color: #EC6C04;
     margin-bottom: -6px;}
 
 .top-nav li a{
